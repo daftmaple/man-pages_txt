@@ -1,0 +1,20 @@
+OPERATOR(7)		   Linux Programmer's Manual		   OPERATOR(7)
+
+
+
+NAME
+       operator - C operator precedence and order of evaluation
+
+DESCRIPTION
+       This manual page lists C operators and their precedence in evaluation.
+
+       lb lb l l.  Operator  Associativity () [] -> .	  left to right ! ~ ++
+       -- + - (type) * & sizeof     right to left * / %     left  to  right  +
+       -  left	to  right  <<  >>     left to right < <= > >= left to right ==
+       !=     left to right &	 left to right ^    left to right |    left to
+       right  &&   left to right ||   left to right ?:	 right to left = += -=
+       *= /= %= <<= >>= &= ^= |=  right to left ,    left to right
+
+
+
+Linux				  2011-09-09			   OPERATOR(7)
